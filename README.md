@@ -106,7 +106,7 @@ npm install
 
 3. Obtain the API key from newsapi.org:
 - create the .env file
-- Add: REACT_APP_NEWS_API_KEY=your_api_key
+- Add: REACT_APP_API_KEY=your_api_key
 
 4. Start the App:
 npm start
