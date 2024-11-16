@@ -99,7 +99,7 @@ Feeds uses the [News API](https://newsapi.org) to fetch fresh and relevant artic
 
 1. Clone the repository:
 - git clone https://github.com/obrito00/NewsFeedsApp
-- cd FeedsApp
+- cd NewsFeedsApp
 
 2. Install dependencies:
 npm install
