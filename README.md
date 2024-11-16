@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Feeds App 📰
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Feeds is a dynamic, user-friendly web application designed to provide users with a highly customizable and interactive news reading experience. With its responsive design and intuitive features, Feeds ensures users stay informed on the latest news anytime and anywhere.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## **Table of Contents** 📋
 
-### `npm start`
+1. [Overview](#overview)
+2. [Features](#features)
+   - [Search Functionality](#search-functionality)
+   - [Categories Feature](#categories-feature)
+   - [Options Menu](#options-menu)
+3. [How to Use](#how-to-use)
+4. [API Integration](#api-integration)
+5. [Screenshots Overview 🖼](#screenshots-overview-)
+6. [Tech Stack 🛠](#tech-stack-)
+7. [How to Run the App 🚀](#how-to-run-the-app-)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Overview**
+Feeds is designed to provide streamlined access to a wide range of news articles. Users can:
+- Search, filter, and manage news consumption effectively.
+- Customize their experience with layout and theme options.
+- Navigate seamlessly through categories and reset the app easily.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## **Features**
 
-### `npm run build`
+### **Search Functionality**
+- **App Search:** Instantly retrieves articles within the app as the user types.
+- **Deep Search:** Fetches articles from the past few weeks based on user input, accessible via the search icon.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **Categories Feature**
+- Browse news articles filtered by specific categories (e.g., Business, Entertainment, Technology).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Options Menu**
+- **Dark Mode:** Saves user preferences in local storage for consistent theme usage.
+- **Layout Options:** Switch between different article display layouts for a tailored reading experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## **How to Use**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **Starting a Search**
+- **App Search:** Begin typing in the search bar to see matching articles from within the app.
+- **Deep Search:** Click the search icon to perform a deeper search fetching older articles.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### **Viewing Articles by Category**
+- Use category buttons to filter the feed by topics like Business, Entertainment, and Technology.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### **Customizing the Experience**
+- Toggle between dark and light modes via the options menu.
+- Change article layouts for a personalized viewing experience.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### **Navigating the App**
+- Use the app title or the "General" category button to reset to the home view.
+- Category buttons provide quick navigation without reloading the page.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **API Integration**
+Feeds uses the [News API](https://newsapi.org) to fetch fresh and relevant articles.  
+- The free version has a daily limit of 100 requests.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## **Screenshots Overview 🖼**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### **Home View**
+![Home View](public/readme-imgs/feedshome.jpg)
 
-### Analyzing the Bundle Size
+### **Categories View**
+![Categories View](public/readme-imgs/feedscategories.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **Search View**
+![Search View](public/readme-imgs/feedsappsearch1.png)
 
-### Making a Progressive Web App
+### **Full Search View**
+![Full Search View](public/readme-imgs/feedsappsearch2.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### **Alternate Layout View**
+![Alternate Layout View](public/readme-imgs/feedsaltlayout.png)
 
-### Advanced Configuration
+### **Dark Mode View**
+![Dark Mode View](public/readme-imgs/feedshomedarkmode.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## **Tech Stack 🛠**
+- **Frontend:** React (Create React App)
+- **API:** [News API](https://newsapi.org)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## **How to Run the App 🚀**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository:
+- git clone https://github.com/obrito00/NewsFeedsApp
+- cd FeedsApp
+
+2. Install dependencies:
+npm install
+
+3. Obtain the API key from newsapi.org:
+- create the .env file
+- Add: REACT_APP_NEWS_API_KEY=your_api_key
+
+4. Start the App:
+npm start
