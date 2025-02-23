@@ -37,7 +37,7 @@ Feeds is designed to provide streamlined access to a wide range of news articles
 - Browse news articles filtered by specific categories (e.g., Business, Entertainment, Technology).
 
 ### **Options Menu**
-- **Dark Mode:** Saves user preferences in local storage for consistent theme usage.
+- **Light Mode:** Saves user preferences in local storage for consistent theme usage.
 - **Layout Options:** Switch between different article display layouts for a tailored reading experience.
 
 ---
@@ -70,7 +70,7 @@ Feeds uses the [News API](https://newsapi.org) to fetch fresh and relevant artic
 ## **Screenshots Overview 🖼**
 
 ### **Home View**
-![Home View](public/readme-imgs/feedshome.jpg)
+![Home View](public/readme-imgs/feedshome.png)
 
 ### **Categories View**
 ![Categories View](public/readme-imgs/feedscategories.png)
@@ -79,13 +79,13 @@ Feeds uses the [News API](https://newsapi.org) to fetch fresh and relevant artic
 ![Search View](public/readme-imgs/feedsappsearch1.png)
 
 ### **Full Search View**
-![Full Search View](public/readme-imgs/feedsappsearch2.jpg)
+![Full Search View](public/readme-imgs/feedsappsearch2.png)
 
 ### **Alternate Layout View**
 ![Alternate Layout View](public/readme-imgs/feedsaltlayout.png)
 
-### **Dark Mode View**
-![Dark Mode View](public/readme-imgs/feedshomedarkmode.jpg)
+### **Light Mode View**
+![Light Mode View](public/readme-imgs/feedshomelightmode.png)
 
 ---
 
